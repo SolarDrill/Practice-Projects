@@ -1,3 +1,7 @@
+#A retry pops up when you enter a string, decimal or negative number. The points are accumulated and you can continue or finish it when you want.
+#It's a number guessing mini-game
+
+
 import random
 
 def number_guessing(points_counter=None):
@@ -33,19 +37,3 @@ def number_guessing(points_counter=None):
             print("Thanks for playing!")
                 
 number_guessing()
-
-    #Add, No decimales
-    #Add, No pueda poner número menor a 1 o mayor 10
-    #Add, No letras
-    
-
-#Simplificar
-"""
-a = "Sss"
-
-b = "Sss"
-
-b = True if a == b else False
-
-print(b)
-"""
